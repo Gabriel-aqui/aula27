@@ -56,7 +56,7 @@ class PlayerArrow {
       this.trajectory.push(position);
     }*/
     
-    if (this.body.velocity.x > 0 || this.body.position.x > 400) {
+    if (this.body.velocity.x > 0 && this.body.position.x > 400) {
       var position = [this.body.position.x, this.body.position.y];
       this.trajectory.push(position);
     }
